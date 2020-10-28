@@ -39,6 +39,9 @@ namespace L1Analysis
      partVx.resize(0);
      partVy.resize(0);
      partVz.resize(0);
+     partPx.resize(0);
+     partPy.resize(0);
+     partPz.resize(0);
      partHardProcess.resize(0);
 
      nJet = 0;     
@@ -70,6 +73,9 @@ namespace L1Analysis
     std::vector<float> partVx;
     std::vector<float> partVy;
     std::vector<float> partVz;
+    std::vector<float> partPx;
+    std::vector<float> partPy;
+    std::vector<float> partPz;
     std::vector<int> partHardProcess;
     
     int nJet;
